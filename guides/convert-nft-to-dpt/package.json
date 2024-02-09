@@ -1,0 +1,17 @@
+{
+  "name": "convert-nft-to-dpt",
+  "version": "1.0.0",
+  "description": "An example for showcasing how can you convert your existing NFT into a DPT",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ts-node main.ts"
+  },
+  "author": "Wajid Shahid",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "ethers": "^6.11.0",
+    "tiny-invariant": "^1.3.1",
+    "ts-node": "^10.9.2"
+  }
+}
