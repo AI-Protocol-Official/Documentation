@@ -1,4 +1,4 @@
-# How can I convert my NFT into a DPT?
+# How can I convert my NFT / iNFT into a DPT?
 A guide for showcasing how can you convert your existing NFT or (iNFT) into a DPT using AI Protocol smart contracts.
 
 # Instructions
@@ -23,17 +23,18 @@ cp .env.example .env
 
 # Open .env file in a editor and add the following variables
 
-PRIVATE_KEY=`your wallet private key which owns the nft`
+PRIVATE_KEY=`your wallet private key which owns the NFT`
 
 RPC_URL=`rpc url of base network`
 
-# Add you nft details
+# Add you NFT details
+# In the case of iNFT the collection address will be 0xce69a87c02baa8c5f17ed7eb8b1c2657afc2e1af on Ethereum
 
-NFT_COLLECTION_ADDRESS="nft collection address in which you own the nft"
+NFT_COLLECTION_ADDRESS="NFT or iNFT collection address in which you own the NFT"
 
-# The wallet you previously specified must own this nft
+# The wallet you previously specified must own this NFT
 
-NFT_TOKEN_ID="nft token id"
+NFT_TOKEN_ID="NFT or iNFT token id"
 ```
 
 
