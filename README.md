@@ -35,4 +35,4 @@ Check out our guides to perform various operations with Hives
 
 [How to do an Airdrop for your Hive?](./guides/how-to-airdrop.md)
 
-[How to create a Liquidity Pool on Uniswap for the Utility Token of your Hive?](./guides/how-to-airdrop.md)
+[How to create a Liquidity Pool on Uniswap for the Utility Token of your Hive?](./guides/how-to-create-liquidity-pool.md)
