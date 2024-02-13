@@ -41,11 +41,11 @@ cp .env.example .env
 
 # Open .env file in a editor and add the following variables
 
-PRIVATE_KEY=`your wallet private key which owns the NFT`
+PRIVATE_KEY="your wallet private key which owns the NFT"
 
-RPC_URL=`rpc url of base network`
+RPC_URL="rpc url of base network"
 
-# Add you NFT details
+# Add your NFT details
 
 NFT_COLLECTION_ADDRESS="NFT collection address in which you own the NFT"
 
