@@ -18,6 +18,8 @@ Check out our guides
 
 [How to convert an NFT into a DPT?](./guides/convert-nft-to-dpt/README.md)
 
+[How to convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
+
 ## Hives
 A Hive is a system that allows DPTs to have decentralized access to AI, storage, and other resources by enabling trustless coordination between various on-chain and off-chain components of the AI Protocol.
 
