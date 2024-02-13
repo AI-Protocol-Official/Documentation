@@ -4,21 +4,21 @@ Any ERC721 Token (NFT) can be converted into a DPT using AI Protocol smart contr
 # Instructions
 ## Option 1: Using Basescan
 
-1. Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format
-```
-_implementationType (uint8): 0 (This will be zero for every DPT)
-_sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
-```
+1. Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format:
+    ```
+    _implementationType (uint8): 0 (This will be zero for every DPT)
+    _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
+    ```
 2. Connect your wallet using **Connect Wallet** button
 3. Click "Write" and approve the transaction in MetaMask
 4. Retrieve the keys contract that is being deployed against your NFT.
 5. Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#readProxyContract#F27 and fill in the details for function 27. `lookupSharesContract`. Format
-```
-_sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
-```
-> These values needs to be same as you used for the first step.
+    ```
+    _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
+    ```
+    > These values needs to be same as you used for the first step.
 6. Click "Query" and your keys contract address will be displayed.
-> This keys contract holds the embeded liquidty for you DPT. This contract can be used to buy and sell keys of your DPT. 
+    > This keys contract holds the embeded liquidty for you DPT. This contract can be used to buy and sell keys of your DPT. 
 
 ## Option 2: Using Nodejs
 ## Setup the repo locally

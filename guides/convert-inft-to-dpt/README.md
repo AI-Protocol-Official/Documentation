@@ -5,10 +5,10 @@ Any iNFT can be converted into a DPT using AI Protocol smart contracts. To do so
 ## Option 1: Using Etherscan
 
 1. Open https://etherscan.io/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format
-```
-_implementationType (uint8): 0 (This will be zero for every DPT)
-_sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0xce69a87c02baa8c5f17ed7eb8b1c2657afc2e1af","7"]
-```
+    ```
+    _implementationType (uint8): 0 (This will be zero for every DPT)
+    _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0xce69a87c02baa8c5f17ed7eb8b1c2657afc2e1af","7"]
+    ```
 2. Connect your wallet using **Connect Wallet** button
 3. Click "Write" and approve the transaction in MetaMask
 
