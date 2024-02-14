@@ -16,11 +16,13 @@ into a DPT you must own that NFT.
 
 **I own an NFT how can I convert it into a DPT?**
 
-Check out our guides
+Check out our guides to perform various operations with DPTs.
 
-[How to convert an NFT into a DPT?](./guides/convert-nft-to-dpt/README.md)
-
-[How to convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
+## How to
+ 
+* [Convert an NFT into a DPT?](./guides/convert-nft-to-dpt/README.md)
+* [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
+* [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt.md)
 
 ## Hives
 A Hive is an on-chain abstraction, allowing
