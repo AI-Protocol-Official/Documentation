@@ -24,8 +24,8 @@ Check out our guides
 
 ## Hives
 A Hive is an on-chain abstraction, allowing
-* DPTs to have decentralized access to AI models, storage, GPUs and other resources;
-* resource providers to utilize their resources more effectively and transparently;
+* DPTs to have decentralized access to AI models, storage, GPUs and other resources.
+* Resource providers to utilize their resources more effectively and transparently.
 * Hive owners build economies around the Hives, and attract participants of the various kind.
 
 This is achieved by enabling trustless coordination between various on-chain and off-chain components of the
@@ -38,9 +38,9 @@ the Hive is a record in the `HiveRegistry` smart contract; the Hive:
 3) has one and only one hiveURI pointing to some off-chain resource with the information about the Hive
    (possibly a website),
 4) has any number of NFTs (assets) bound to it (pre-sorted by category), and each NFT
-   * has one (and only one) category within the Hive;
-   * cannot join other hives (can only join 1 Hive at a time);
-   * NFT which created a Hive cannot join the same Hive, or any other Hive;
+   * has one (and only one) category within the Hive.
+   * cannot join other hives (can only join 1 Hive at a time)
+   * NFT which created a Hive cannot join the same Hive, or any other Hive.
 
 Every Hive has the following components:
  * Native ERC-20 Utility Token
