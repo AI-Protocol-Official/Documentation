@@ -1,6 +1,6 @@
 # How to fuse a Level 5 Pod with a DPT?
 
-A Pod, also known as a Personality Pod, within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
+A Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
 
 ## Prerequisites
 1. You must own a Level 5 pod.
