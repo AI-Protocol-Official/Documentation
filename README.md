@@ -33,6 +33,8 @@ Every Hive has the following components:
 
 Check out our guides to perform various operations with Hives
 
+[How to launch a Utility Token for your Hive?](./guides/how-to-launch-utility-token/how-to-launch-utility-token.md)
+
 [How to do an Airdrop for your Hive?](./guides/how-to-airdrop.md)
 
 [How to create a Liquidity Pool on Uniswap for the Utility Token of your Hive?](./guides/how-to-create-liquidity-pool.md)

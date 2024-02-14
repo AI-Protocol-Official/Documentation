@@ -5,7 +5,7 @@ A utility token is a native ERC-20 token specific to each Hive. It is used to fa
 Setting up a liquidity pool allows users to swap Hive's utility token for their existing assets. To facilitate your Hive’s ecosystem you must create a liquidity pool of your  Hive’s liquidity token. 
 
 ## Prerequisites
-1. Utility token of your Hive. [How to launch a utility token?](./how-to-launch-utility-token.md)
+1. Utility token of your Hive. [How to launch a utility token?](./how-to-launch-utility-token/how-to-launch-utility-token.md)
 2. Basic knowledge of how DEX works
 3. Your wallet must have a sufficient balance of the utility token and the token you want to create the pair against.
 4. You must define a price for your utility token.
