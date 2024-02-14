@@ -6,7 +6,7 @@ import KEYS_FACTORY_ABI from "./abis/KeysFactory.json";
 dotevnv.config()
 
 // Keys Factory Address Contract Reference: https://github.com/AI-Protocol-Official/ai-protocol-v3-periphery/blob/master/contracts/bonding_curves/SharesFactoryV1.sol
-const KEYS_FACTORY_ADDRSS = "contract needs to be deployed"
+const KEYS_FACTORY_ADDRSS = "0xABA615044d5640bd151A1B0bdac1C04806AF1AD5"
 const { PRIVATE_KEY, RPC_URL, NFT_COLLECTION_ADDRESS, NFT_TOKEN_ID } = process.env
 
 async function main() {
