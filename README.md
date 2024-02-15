@@ -22,7 +22,7 @@ Check out our guides to perform various operations with DPTs.
  
 * [Convert an NFT into a DPT?](./guides/convert-nft-to-dpt/README.md)
 * [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
-* [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt.md)
+* [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt/fuse-pod-with-dpt.md)
 
 ## Hives
 A Hive is an on-chain abstraction, allowing
