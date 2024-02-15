@@ -3,7 +3,7 @@
 AI Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
 
 ## Prerequisites
-1. You must own a Level 5 pod.
+1. You must own a Level 5 AI Pod.
 2. You must own a DPT.
 3. Keep in mind that your pod will be locked.
 
