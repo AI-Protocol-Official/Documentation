@@ -6,6 +6,7 @@ AI Pod, (previously known as a Personality Pod) within the AI Protocol, is an es
 1. You must own a Level 5 AI Pod.
 2. You must own a DPT.
 3. Keep in mind that your pod will be locked.
+4. **If you attempt to fuse the Pod with a DPT that you do not own, you risk losing your Pod.**
 
 ## Instructions using Etherscan
 
