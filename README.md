@@ -59,3 +59,4 @@ Check out our guides to perform various operations with Hives
 * [Launch a Utility Token for your Hive?](./guides/how-to-launch-utility-token/how-to-launch-utility-token.md)
 * [Do an Airdrop for your Hive?](./guides/how-to-airdrop.md)
 * [Create a Liquidity Pool on Uniswap for the Utility Token of your Hive?](./guides/how-to-create-liquidity-pool.md)
+* [Create/Update/Join a Hive](./guides/how-to-hive.md)
