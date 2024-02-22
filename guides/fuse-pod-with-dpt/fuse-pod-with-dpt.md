@@ -1,9 +1,9 @@
 # How to fuse a Level 5 Pod with a DPT?
 
-AI Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
+AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
 
 ## Prerequisites
-1. You must own a Level 5 AI Pod.
+1. You must own a Level 5 AI Pod aka Intelligence Pod.
 2. You must own a DPT.
 3. Keep in mind that your pod will be locked.
 4. **If you attempt to fuse the Pod with a DPT that you do not own, you risk losing your Pod.**
