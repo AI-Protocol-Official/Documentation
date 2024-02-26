@@ -61,3 +61,8 @@ Check out our guides to perform various operations with Hives
 * [Do an Airdrop for your Hive?](./guides/how-to-airdrop.md)
 * [Create a Liquidity Pool on Uniswap for the Utility Token of your Hive?](./guides/how-to-create-liquidity-pool.md)
 * [Create/Update/Join a Hive](./guides/how-to-hive.md)
+
+## Governance
+
+* [Role of ALI in governance, how to vote, how to discover which votes are underway, previously passed votes](./guides/governance.md)
+* [Standardized errors, suggested errors to show for Hives](./guides/governance.md#governance-errors-)
