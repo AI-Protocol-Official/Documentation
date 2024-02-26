@@ -48,7 +48,7 @@ AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the A
 
 8. Wait for the transaction to be confirmed. Congratulations your Pod is being fused with your DPT
 
-## Instructions use Noah's Ark
+## Instructions using Noah's Ark
 
 1. Click Login / Signup to proceed
 
