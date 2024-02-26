@@ -1,9 +1,9 @@
 # How to fuse a Level 5 Pod with a DPT?
 
-AI Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
+AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
 
 ## Prerequisites
-1. You must own a Level 5 AI Pod.
+1. You must own a Level 5 AI Pod aka Intelligence Pod.
 2. You must own a DPT.
 3. Keep in mind that your pod will be locked.
 4. **If you attempt to fuse the Pod with a DPT that you do not own, you risk losing your Pod.**
@@ -47,3 +47,53 @@ AI Pod, (previously known as a Personality Pod) within the AI Protocol, is an es
     ![Write](./screenshots/6.png)
 
 8. Wait for the transaction to be confirmed. Congratulations your Pod is being fused with your DPT
+
+## Instructions use Noah's Ark
+
+1. Click Login / Signup to proceed
+
+    ![login/signup](./screenshots/noah-1.png)
+
+2. Sign In or Sign Up using your email
+
+    ![signin](./screenshots/noah-2.png)
+
+3. Click on the FUSE menu icon
+
+    ![fuse](./screenshots/noah-3.png)
+
+4. Connect your wallet
+
+    ![connect](./screenshots/noah-4.png)
+
+5. Approve the wallet connection request in Metamask
+
+    ![approve](./screenshots/noah-5.png)
+
+6. Select the NFT Body
+
+     ![nftbody](./screenshots/noah-6.png)
+
+7. Select the Intelligence Pod
+
+    ![pod](./screenshots/noah-7.png)
+
+8. Clicking FUSE will take you to disclaimers and transactions to sign in wallet.
+    > You will see your Pod and NFT, with a disclamer on the right.
+
+    ![fusescreen](./screenshots/noah-8.png)
+
+9. Read the description of Fusion carefully and Confirm or Close this screen.
+
+    ![confirm](./screenshots/noah-9.png)
+
+10. Click FUSE to begin transaction Signing.
+    > If your Pod is staked, you will get 3 transactions to confirm.\
+    If your Pod is not staked, you will 2 transactions to confirm.
+
+    ![wallet](./screenshots/noah-10.png)
+
+11. FUSION Success!
+    > When Fusion is complete you will see an animation of your Intelligence Pod being transferred into your DPT.
+
+    ![success](./screenshots/noah-11.png)
