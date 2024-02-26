@@ -88,6 +88,7 @@ Check out our guides to perform various operations with Intelligence Pod
 ## How To
 
 * [To acquire an Intelligence Pod?](./guides/intelligence-pod/how-to-acquire-an-ai-pod.md)
+* [Upgrade the Intelligence Level of an Intelligence Pod?](./guides/intelligence-pod/how-to-upgrade-ai-pod.md)
 
 ![how-hive-is-create](./guides/intelligence-pod/images/how-hive-created.png)
 
