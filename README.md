@@ -15,6 +15,8 @@ liquidity in blockchain-based assets.
 Any ERC721 Token (NFT) can be converted into a DPT using AI protocol smart contracts. To convert an ERC721 Token (NFT)
 into a DPT you must own that NFT.
 
+![what-is-dpt](./guides/intelligence-pod/images/what-is-dpt.png)
+
 **I own an NFT how can I convert it into a DPT?**
 
 Check out our guides to perform various operations with DPTs.
@@ -54,6 +56,10 @@ Every Hive has the following components:
  * Tokenized Digital Assets
  * DPTs
 
+![how-hive-is-create](./guides/intelligence-pod/images/how-hive-created.png)
+
+![on-chain-assets](./guides/intelligence-pod/images/on-chain-assets.png)
+
 Check out our guides to perform various operations with Hives
 
 ## How To
@@ -88,10 +94,6 @@ Check out our guides to perform various operations with Intelligence Pod
 ## How To
 
 * [To acquire an Intelligence Pod?](./guides/intelligence-pod/how-to-acquire-an-ai-pod.md)
-
-![how-hive-is-create](./guides/intelligence-pod/images/how-hive-created.png)
-
-![on-chain-assets](./guides/intelligence-pod/images/on-chain-assets.png)
 
 ## Governance
 
