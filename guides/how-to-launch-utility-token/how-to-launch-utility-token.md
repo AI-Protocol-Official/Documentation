@@ -3,19 +3,25 @@
 Each Hive has its utility token, which is utilized for leveraging tokenomics, facilitating governance and payments, distributing rewards, and incentivizing the creation of assets within its ecosystem.
 
 ## Prerequisites
-1. Your token should be complaint with ERC20, ERC1363, EIP2612, EIP3009 Standards.
+1. Your token should be compliant with ERC20, ERC1363, EIP2612, and EIP3009 Standards.
 
-## Instructions
+## Instructions using Remix
+**These instructions include our implementation of ERC20 which fulfills all standards mentioned above**
 
-1. Open https://cointool.app/createToken/base
-2. Connect your wallet using **Connect Wallet** button
+1. Open [Code in remix](https://remix.ethereum.org/?#code=Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC40OwoKaW1wb3J0ICJodHRwczovL2dpdGh1Yi5jb20vQUktUHJvdG9jb2wtT2ZmaWNpYWwvYWktcHJvdG9jb2wtdjMtY29yZS9ibG9iL21haW4vY29udHJhY3RzL3Rva2VuL1doaXRlbGFiZWxFUkMyMC5zb2w7Cgpjb250cmFjdCBUb2tlbk5hbWVFUkMyMCBpcyBXaGl0ZWxhYmVsRVJDMjAgewogICAgLy8gdG90YWwgc3VwcGx5OiAxIHRyaWxsaW9uICgxMF4xMiArIDE4IGRlY2ltYWxzKQogICAgY29uc3RydWN0b3IoKQogICAgICAgIFdoaXRlbGFiZWxFUkMyMCgiVG9rZW5OYW1lIiwgIlRva2VuU3ltYm9sIiwgbXNnLnNlbmRlciwgMTAqKigxMiArIDE4KSkKICAgIHt9Cn0K)
 
-    ![Connect Wallet](./screenshots/1.png)
+2. Change the contract name from `TokenNameERC20` to whatever you wanna call your token.
 
-3. Add details of your token such as **Token Name**, **Symbol**, **Initial Supply**, and **Decimals**
+3. Change the `TokenName`, `TokenSymbol`, and token supply.
 
-    ![Add Details](./screenshots/2.png)
+4. Compile the contract.
 
-4. Click "Create Token" and approve the transaction in MetaMask
+5. Navigate to `Deploy and run transactions` from the left navigation.
 
-    ![Create Token](./screenshots/3.png)
+6. Change the environment from Remix VM to Injected Provider. And connect your Metamask.
+
+7. Select the token contract to deploy.
+
+8. Click on **Deploy** and approve the transaction in Metamask.
+
+9. Congratulations you have deployed ERC20 token for your hive.
