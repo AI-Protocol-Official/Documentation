@@ -16,12 +16,12 @@ Each Hive has its utility token, which is utilized for leveraging tokenomics, fa
 
 4. Compile the contract.
 
-4. Navigate to `Deploy and run transactions` from the left navigation.
+5. Navigate to `Deploy and run transactions` from the left navigation.
 
-5. Change the environment from Remix VM to Injected Provider. And connect your Metamask.
+6. Change the environment from Remix VM to Injected Provider. And connect your Metamask.
 
-6. Select the token contract to deploy.
+7. Select the token contract to deploy.
 
-7. Click on **Deploy** and approve the transaction in Metamask.
+8. Click on **Deploy** and approve the transaction in Metamask.
 
-8. Congratulations you have deployed ERC20 token for your hive.
+9. Congratulations you have deployed ERC20 token for your hive.
