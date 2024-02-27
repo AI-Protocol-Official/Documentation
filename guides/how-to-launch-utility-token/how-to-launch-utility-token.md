@@ -8,11 +8,13 @@ Each Hive has its utility token, which is utilized for leveraging tokenomics, fa
 ## Instructions using Remix
 **These instructions include our implementation of ERC20 which fulfills all standards mentioned above**
 
-1. Open [Code in remix](https://remix.ethereum.org/?#code=<need to add base64 code here>)
+1. Open [Code in remix](https://remix.ethereum.org/?#code=Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC40OwoKaW1wb3J0ICJodHRwczovL2dpdGh1Yi5jb20vQUktUHJvdG9jb2wtT2ZmaWNpYWwvYWktcHJvdG9jb2wtdjMtY29yZS9ibG9iL21haW4vY29udHJhY3RzL3Rva2VuL1doaXRlbGFiZWxFUkMyMC5zb2w7Cgpjb250cmFjdCBUb2tlbk5hbWVFUkMyMCBpcyBXaGl0ZWxhYmVsRVJDMjAgewogICAgLy8gdG90YWwgc3VwcGx5OiAxIHRyaWxsaW9uICgxMF4xMiArIDE4IGRlY2ltYWxzKQogICAgY29uc3RydWN0b3IoKQogICAgICAgIFdoaXRlbGFiZWxFUkMyMCgiVG9rZW5OYW1lIiwgIlRva2VuU3ltYm9sIiwgbXNnLnNlbmRlciwgMTAqKigxMiArIDE4KSkKICAgIHt9Cn0K)
 
-2. Change the contract name from `YourToken` to whatever you wanna call your token.
+2. Change the contract name from `TokenNameERC20` to whatever you wanna call your token.
 
-3. Change the token name, token symbol, and token supply.
+3. Change the `TokenName`, `TokenSymbol`, and token supply.
+
+4. Compile the contract.
 
 4. Navigate to `Deploy and run transactions` from the left navigation.
 
@@ -23,18 +25,3 @@ Each Hive has its utility token, which is utilized for leveraging tokenomics, fa
 7. Click on **Deploy** and approve the transaction in Metamask.
 
 8. Congratulations you have deployed ERC20 token for your hive.
-
-## Instructions
-
-1. Open https://cointool.app/createToken/base
-2. Connect your wallet using **Connect Wallet** button
-
-    ![Connect Wallet](./screenshots/1.png)
-
-3. Add details of your token such as **Token Name**, **Symbol**, **Initial Supply**, and **Decimals**
-
-    ![Add Details](./screenshots/2.png)
-
-4. Click "Create Token" and approve the transaction in MetaMask
-
-    ![Create Token](./screenshots/3.png)
