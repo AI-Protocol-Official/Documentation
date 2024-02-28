@@ -12,16 +12,28 @@ Each Hive has its utility token, which is utilized for leveraging tokenomics, fa
 
 2. Change the contract name from `TokenNameERC20` to whatever you wanna call your token.
 
+    ![token-1](./screenshots/token-1.png)
+
 3. Change the `TokenName`, `TokenSymbol`, and token supply.
+
+    ![token-2](./screenshots/token-2.png)
 
 4. Compile the contract.
 
+    ![token-3](./screenshots/token-3.png)
+
 5. Navigate to `Deploy and run transactions` from the left navigation.
 
+    ![token-4](./screenshots/token-4.png)
+
 6. Change the environment from Remix VM to Injected Provider. And connect your Metamask.
+
+    ![token-5](./screenshots/token-5.png)
 
 7. Select the token contract to deploy.
 
 8. Click on **Deploy** and approve the transaction in Metamask.
+
+    ![token-6](./screenshots/token-6.png)
 
 9. Congratulations you have deployed ERC20 token for your hive.
