@@ -1,3 +1,5 @@
+![AI Protocol Logo](./logo.png)
+
 # Introduction
 AI Protocol V3 enables the development of a community-driven, secure, and adaptive, decentralized physical
 infrastructure (DePIN) for tokenized AI Systems.
