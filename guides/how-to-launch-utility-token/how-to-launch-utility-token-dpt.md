@@ -8,7 +8,7 @@
 
 1. Open [Code in remix](https://remix.ethereum.org/?#code=Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC40OwoKaW1wb3J0ICJodHRwczovL2dpdGh1Yi5jb20vQUktUHJvdG9jb2wtT2ZmaWNpYWwvYWktcHJvdG9jb2wtdjMtY29yZS9ibG9iL21haW4vY29udHJhY3RzL3Rva2VuL1doaXRlbGFiZWxFUkMyMC5zb2wiOwoKY29udHJhY3QgVG9rZW5OYW1lRVJDMjAgaXMgV2hpdGVsYWJlbEVSQzIwIHsKICAgIC8vIHRvdGFsIHN1cHBseTogMSB0cmlsbGlvbiAoMTBeMTIgKyAxOCBkZWNpbWFscykKICAgIGNvbnN0cnVjdG9yKCkKICAgICAgICBXaGl0ZWxhYmVsRVJDMjAoIlRva2VuTmFtZSIsICJUb2tlblN5bWJvbCIsIG1zZy5zZW5kZXIsIDEwKiooMTIgKyAxOCkpCiAgICB7fQp9Cg==&optimize=true&runs=200)
 
-2. Change the contract name from `TokenNameERC20` to whatever you wanna call your token.
+2. Change the contract name from `TokenNameERC20` to whatever you want to call your token.
 
     ![token-1](./screenshots/token-1.png)
 
@@ -34,4 +34,4 @@
 
     ![token-6](./screenshots/token-6.png)
 
-9. Congratulations you have deployed ERC20 token for your hive.
+9. Congratulations you have deployed ERC20 token for your DPT.
