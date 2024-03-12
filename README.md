@@ -6,6 +6,7 @@ The AI Protocol is composed of elements such as
 * [DPTs](#decentralized-pre-trained-transformers-dpt)
 * [Hives](#hives)
 * [Intelligence Pods](#intelligence-pod)
+* [iNFT](#inft)
 
 ## Decentralized Pre-Trained Transformers (DPT)
 A Decentralized Pre-Trained Transformer (DPT) is a tokenized AI system with specialized functionality and embedded
@@ -97,6 +98,21 @@ Check out our guides to perform various operations with Intelligence Pod
 
 * [To acquire an Intelligence Pod?](./guides/intelligence-pod/how-to-acquire-an-ai-pod.md)
 * [Upgrade the Intelligence Level of an Intelligence Pod?](./guides/intelligence-pod/how-to-upgrade-ai-pod.md)
+
+
+## iNFT
+The term iNFT is an abbreviation for intelligent Non-Fungible Token. In essence, an iNFT brings to life the underlying unique digital item of its NFT by using the generative powers of artificial intelligence.
+
+As a simple analogy equates iNFTs to Humans with three parts:
+
+* Body (ERC 721 that shows the image/PFP) 
+* Soul (A Pod with Different Intelligence Levels) 
+* Mind (As the Soul Matures in Intelligence Levels, the Mind is capable of Performing higher-order services that can be offered on the AI Protocol)
+
+Any NFT can be turned into an iNFT via the iNFT Protocol. This is achieved by fusing the NFT with another ERC-721 asset called the Personality Pod. Once the NFT is fused with a Personality Pod, it acquires its own unique AI-powered personality.
+
+## How to
+* [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
 
 ## Governance
 
