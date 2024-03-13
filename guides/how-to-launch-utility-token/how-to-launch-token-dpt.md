@@ -79,4 +79,8 @@ Our tokenomics for the token is as follows:
 
     ![token-10](./screenshots/token-10.png)
 
+* Import this token into your Metamask wallet.
+
 * Congratulations! You have successfully deployed an ERC20 token for your DPT.
+
+* Making decisions about how to distribute your token, what kinds of unique functions work for your community, and other considerations can be found in our DPT [Tokenomics guide](./dpt-tokenomics.md).

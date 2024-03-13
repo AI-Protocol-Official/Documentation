@@ -16,7 +16,7 @@ This guide will help you understand the basic steps and decisions involved in de
 
 * **Airdrops:** Free distribution of tokens to potential users to build a community and reward early adopters. Decide on the criteria for who receives the airdrop, such as key holders of your DPT, users who have interacted with your DPT, dream creators, users who have promoted/tagged your DPT on social media platforms or referred to other users, early community members, liquidity providers of your DPT Token.
 
-* **Liquidity Pools:** An amount of initial token supply should be allocated for Liquidity pool creation. To facilitate easy trading of your token, consider allocating a portion (5-15% depending upon launch price of your token and capital available for liquidity) of the total supply to create liquidity pools on popular decentralized exchanges (DEXs). These pools allow users to trade your token with other cryptocurrencies, providing the necessary liquidity for seamless transactions.
+* **Liquidity Pools:** An amount of initial token supply should be allocated for Liquidity pool creation. To facilitate easy trading of your token, consider allocating a portion (5-15% depending upon launch price of your token and capital available for liquidity) of the total supply to create liquidity pools on popular decentralized exchanges (DEXs). These pools allow users to trade your token with other cryptocurrencies, providing the necessary liquidity for seamless transactions. A guide on creating a liquidity pool can be found [here](../how-to-create-liquidity-pool-dpt.md).
 
 ### Step 3: Mechanics and Features
 
