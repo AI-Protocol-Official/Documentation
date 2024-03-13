@@ -79,6 +79,28 @@ Our tokenomics for the token is as follows:
 
     ![token-10](./screenshots/token-10.png)
 
+* **Note:** At this point, your token is being deployed but will not function as expected. As we require to do one more transaction to enable all the features of this token.
+
+* To do so please expand the contract functions using the expand button.
+
+    ![token-11](./screenshots/token-11.png)
+
+* Locate the function named `updateFeatures`
+
+    ![token-12](./screenshots/token-12.png)
+
+* Put the mask value `65535` and do the update transaction with `transact` button.
+
+    ![token-13](./screenshots/token-13.png)
+    >Value other than `65535` will not enable the correct features. So please be careful.
+
+* Confirm the transaction in Metamask.
+
+    ![token-14](./screenshots/token-14.png)
+
+* After you’ve initiated the update feature transaction, wait for the transaction to be confirmed on the blockchain.
+    > Once the transaction is confirmed. All token features including `transfer` `transferFrom` will be enabled.
+
 * Import this token into your Metamask wallet.
 
 * Congratulations! You have successfully deployed an ERC20 token for your DPT.
