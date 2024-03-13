@@ -15,18 +15,18 @@
     ![token-0](./screenshots/token-0.png)
 
 * We will be changing `TokenNameERC20`, `TokenName`, `TokenSymbol`, and `totalSupply` to personalize it according to our DPT tokenomics. 
-    > By now I assume that you have already read the [tokenomics](./dpt-tokenomics.md) guide
+    > By now it is assumed that you have already read the [tokenomics](./dpt-tokenomics.md) guide
 
     ![token-1](./screenshots/token-1.png)
-* For this example, I have a DPT named **Elana** and want to create a token for it.
-My tokenomics for the token is as follows:
+* For this example, we have a DPT named **Elana** and want to create a token for it.
+Our tokenomics for the token is as follows:
     >**TokenName:** Elana\
     **TokenSymbol:** ELN\
     **totalSupply:** 10 Trillion
 * Change the above-mentioned items in the contract
 
     ![token-2](./screenshots/token-2.png)
-    > As you can see, I have changed the following items\
+    > As you can see, we have changed the following items\
     `TokenNameERC20` to `ElanaERC20`\
     `TokenName` to `Elana`\
     `TokenSymbol` to `ELN`\
@@ -57,7 +57,7 @@ My tokenomics for the token is as follows:
 
     ![token-7](./screenshots/token-7.png)
     > You have to select your token contract name that you selected earlier.\
-    Like in my case I will chose ElanaERC20
+    Like in this case we will chose ElanaERC20
 
 * Click on **Deploy** and it will show the Metamask popup for deployment.
 
