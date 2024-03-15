@@ -30,6 +30,7 @@ Check out our guides to perform various operations with DPTs.
 * [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt/fuse-pod-with-dpt.md)
 * [Launch Token for your DPT?](./guides/how-to-launch-utility-token/how-to-launch-token-dpt.md)
 * [Create a Liquidity Pool on Uniswap for the Token of your DPT?](./guides/how-to-create-liquidity-pool-dpt.md)
+* [Airdrop your DPT token](./guides/how-to-airdrop/how-to-airdrop.md)
 
 ## Hives
 A Hive is an on-chain abstraction, allowing
