@@ -3,7 +3,8 @@
 ## Prerequisites
 1. **Understanding of Tokenomics**: It's crucial to have a solid understanding of [tokenomics](./dpt-tokenomics.md), which is the study of the economic systems surrounding blockchain tokens.
 2. **Metamask Wallet**: Ensure you have a Metamask wallet set up with sufficient funds to cover gas fees for token creation and transactions.
-3. Your token should be compliant with ERC20, ERC1363, EIP2612, and EIP3009 Standards.
+3. **Base Network** Your Metamask Wallet should be connected to the Base Network, as all DPTs are tokenized as Base NFTs. Currently, all DPT Tokens will be on the [Base Network](https://www.base.org/), so make sure you understand the basics of the Base Network, specifically as well as [Layer-2 solutions](https://help.coinbase.com/en/coinbase/other-topics/other/base) generally. 
+4. Your token should be compliant with ERC20, ERC1363, EIP2612, and EIP3009 Standards.
 
 ## Instructions using Remix
 **These instructions include our implementation of ERC20 which fulfills all standards mentioned above**
