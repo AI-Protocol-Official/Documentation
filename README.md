@@ -28,6 +28,7 @@ Check out our guides to perform various operations with DPTs.
 * [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
 * [Buy/Sell Keys of DPT](./guides/buy-sell-keys-of-dpt/buy-sell-keys-of-dpt.md)
 * [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt/fuse-pod-with-dpt.md)
+* [Design Your DPT Tokenomics](./guides/how-to-launch-utility-token/dpt-tokenomics.md)
 * [Launch Token for your DPT?](./guides/how-to-launch-utility-token/how-to-launch-token-dpt.md)
 * [Create a Liquidity Pool on Uniswap for the Token of your DPT?](./guides/how-to-create-liquidity-pool-dpt.md)
 * [Airdrop your DPT token](./guides/how-to-airdrop/how-to-airdrop.md)
