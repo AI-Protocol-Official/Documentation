@@ -20,8 +20,67 @@ Let the list of the addresses for an airdrop and their balances be:
 
 Replace the addresses (including token address) and values above with your relevant values
 
+## Option 1: Using AI Protocol's Airdrop Smart contracts
 
-## Option 1: Push via Disperse APP GUI
+### Prerequisites
+1. Git must be installed on your machine.
+2. Node.js 18 must be installed on your machine.
+
+In this guide, you will deploy an airdrop smart contract to distribute your DPT tokens among users.
+
+#### Step 1: Setup the Repository
+
+1. Open your terminal and clone the repository that contains the contracts by typing `git clone git@github.com:AI-Protocol-Official/airdrop-contracts.git`.
+
+2. Navigate to the contracts directory using `cd airdrop-contracts`.
+
+3. Install the dependencies by running `npm install`.
+
+#### Step 2: Deploy the Contract
+
+1. Before deploying the contracts, you need to set a few environment variables.
+
+2. Create a file named `.env` using the command `touch .env`.
+
+3. Open `.env` file in any text editor.
+
+4. In this file, you need to add two values:
+    1. `P_KEY8453`: This should be the private key of the account that has sufficient funds to deploy the contract. This account will be the owner of the contract.
+    2. `DPT_TOKEN_ADDRESS`: This should be the address of the DPT token that you want to link with the airdrop contract. **The airdrop contract will only distribute this token among users**.
+
+5. After adding the values, save the file.
+
+6. To deploy the contract, run `npx hardhat deploy --network base_mainnet`.
+
+7. nce the contract is deployed, the address will be printed in the console.
+
+#### Step 3: Generate Merkle Tree
+A Merkle tree is a cryptographic technique used in this airdrop contract to reduce gas costs. In this step, we will generate a Merkle tree from the list of users to whom we want to distribute the airdrop.
+
+1. Open the file `WorkDirectory/scripts/merkle_tree/data.csv` in a text editor.
+
+2.  Add the details of the airdrop users. The details should be comma-separated.
+
+3. Save the file and close the editor.
+
+4. Run `npx hardhat run ./scripts/merkle_tree/generate_merkle_tree.js` to generate the Merkle tree.
+> This command generates the Merkle tree and stores the data in `WorkDirectory/scripts/merkle_tree/merkle_tree.json`.
+
+5. his generated file will contain a root and a rewardList, which is an array of airdropped users.
+
+6. In the rewardList array, there is a proof attached to each airdrop user. This proof will be required by the user to claim their airdrop from the smart contract.
+
+#### Step 4: Update the Root on the Smart Contract
+The root is a cryptographic hash obtained by hashing all the airdrop users along with their amounts. Each time you update the list of airdrop users, the root also gets updated. To let the smart contract know that the list of airdrop users has been updated, you have to update the root on the smart contract. Here's how to do it automatically using the provided script:
+
+1. Run `npx hardhat run ./scripts/update_merkle_root.js --network base_mainnet` in the terminal.
+> This command automatically fetches the root from the `merkle_tree.json` file and sends a transaction to update the root on the airdrop smart contract.
+
+#### Step 5: Remove the Private Key
+
+Run `rm .env` to delete the `.env` file. Since it contains your private key and we are done with the process, it's not secure to keep this file.
+
+## Option 2: Push via Disperse APP GUI
 
 1. Open the disperse.app https://disperse.app/
 
