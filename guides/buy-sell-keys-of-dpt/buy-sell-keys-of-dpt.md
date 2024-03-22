@@ -3,12 +3,13 @@
 # Prerequisites
 
 * NFT details that are linked with DPT
-* Enough ETH funds to buy keys and pay for gas.
+* The Key price is in ALI token. So you would be required to have a sufficient amount of ALI tokens to buy the keys. [Buy ALI on Uniswap](https://app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=0x97c806e7665d3afd84a8fe1837921403d59f3dcc)
+* Enough ETH to pay for gas.
 
 ### Buy Keys (via Basescan):
 
 1. **Retrieve the Keys contract linked with DPT.**
-    * Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#readProxyContract#F27 and fill in the details for function 27. `lookupSharesContract`. Format
+    * Open https://basescan.org/address/0x80f5bcc38b18c0f0a18af3c6fba515c890689342#readProxyContract#F27 and fill in the details for function 27. `lookupSharesContract`. Format
         ```
         _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
         ```
@@ -29,14 +30,33 @@
         ![details](./screenshots/buy-price-1.png)
 
     * Click **Query** and it will display the price.
-        > This is the amount of ETH required to buy those Keys.\
-         **Copy this number somewhere we gonna need this in next step.**
+        > This is the amount of ALI required to buy those Keys.\
+         **Copy this number somewhere we will be going need this in next step.**
 
         ![query](./screenshots/buy-price-2.png)
+    
+    * Open the following link, to approve ALI tokens.
+    https://basescan.org/token/0x97c806e7665d3afd84a8fe1837921403d59f3dcc#writeContract#F1 
+    Fill in the details for function 1. `approve`
+        ```
+        spender: Paste the keys contract address here.
+        value: Paste the ALI amount that you copied earlier.
+        ```
+        ![approve-1](./screenshots/approve-1.png)
+    
+    * Connect your wallet using **Connect to Web3** button.
+
+        ![approve-2](./screenshots/approve-2.png)
+
+    * Click **Write** and approve the transaction in Metamask.
+
+         ![approve-3](./screenshots/approve-3.png)
+
+    * Wait for the transaction to be confirmed by the blockchain.
 
     * Open the following link, and remember to replace `<paste-the-keys-address-here>` with the Keys contract address: https://basescan.org/address/paste-the-keys-address-here#writeContract#F1 and fill in the details for function 1. `buyKeys`
         ```
-        payableAmount (ether): Paste the ETH amount that you copied earlier.
+        payableAmount (ether): This will be 0 as the keys price is being paid in ALI.
         amount (uint256): Amount of keys you want to buy.
         ```
         > Amount of keys you specify here must match the amount you queried price for.
@@ -63,7 +83,7 @@
         ![details](./screenshots/sell-price-1.png)
     
     * Click **Query** and it will display the price.
-        > This is the amount of ETH you will receive if you sell this much of keys.
+        > This is the amount of ALI you will receive if you sell this much of keys.
 
         ![query](./screenshots/sell-price-2.png)
 
