@@ -1,8 +1,8 @@
-# How to Airdrop your DPT token
+# How to execute a DPT Token Airdrop
 
 ## Prerequisites
 
-1.  A deployed ERC20 token and the required balance of that token for the airdrop.
+1.  A deployed ERC20 token and the required balance of that token for the airdrop. [How to launch a token?](../how-to-launch-utility-token/how-to-launch-token-dpt.md)
 2.  A list of the addresses and their corresponding airdrop balances, which should sum up to a value not exceeding the available airdrop balance.
 
 For example, let's say the ERC20 token address is `0x59b670e9fA9D0A427751Af201D676719a970857b` and the required airdrop balance is `6,900` (six thousand nine hundred).
@@ -23,8 +23,8 @@ Replace the addresses (including token address) and values above with your relev
 ## Option 1: Using AI Protocol's Airdrop Smart contracts
 
 ### Prerequisites
-1. Git must be installed on your machine.
-2. Node.js 18 must be installed on your machine.
+1. [Git](https://git-scm.com/downloads) must be installed on your machine.
+2. [Node.js](https://nodejs.org/en/download) 18 must be installed on your machine.
 
 In this guide, you will deploy an airdrop smart contract to distribute your DPT tokens among users.
 
