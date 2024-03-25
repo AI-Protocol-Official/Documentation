@@ -3,22 +3,23 @@
 ## Prerequisites
 
 1.  A deployed ERC20 token and the required balance of that token for the airdrop. [How to launch a token?](../how-to-launch-utility-token/how-to-launch-token-dpt.md)
-2.  A list of the addresses and their corresponding airdrop balances, which should sum up to a value not exceeding the available airdrop balance.
+2. **Prepare a CSV file with airdrop details**: You need to prepare a list of the addresses and their corresponding airdrop balances, which should sum up to a value not exceeding the available airdrop balance. This list will be used later in the guide to generate a Merkle tree.
 
-For example, let's say the ERC20 token address is `0x59b670e9fA9D0A427751Af201D676719a970857b` and the required airdrop balance is `6,900` (six thousand nine hundred).
+    For example, let's say the ERC20 token address is `0x59b670e9fA9D0A427751Af201D676719a970857b` and the required airdrop balance is `6,900` (six thousand nine hundred).
 
-Let the list of the addresses for an airdrop and their balances be:
+    Prepare a CSV file with the following format:
 
-| Airdrop Address                            | Airdrop Value |
-|--------------------------------------------|---------------|
-| 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc | 100           |
-| 0x976EA74026E726554dB657fA54763abd0C3a0aa9 | 200           |
-| 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 | 1,000         |
-| 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f | 5,000         |
-| 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 | 600           |
-| Total:                                     | 6,900         |
+    | Airdrop Address                            | Airdrop Value |
+    |--------------------------------------------|---------------|
+    | 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc | 100           |
+    | 0x976EA74026E726554dB657fA54763abd0C3a0aa9 | 200           |
+    | 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 | 1,000         |
+    | 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f | 5,000         |
+    | 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 | 600           |
+    | Total:                                     | 6,900         |
 
-Replace the addresses (including token address) and values above with your relevant values
+    Replace the addresses (including token address) and values above with your relevant values. This CSV file will be used in the generation of the Merkle tree.
+
 
 ## Option 1: Using AI Protocol's Airdrop Smart contracts
 
