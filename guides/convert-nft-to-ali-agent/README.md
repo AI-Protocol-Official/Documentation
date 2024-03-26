@@ -4,9 +4,9 @@ Any ERC721 Token (NFT) can be converted into an ALI Agent using AI Protocol smar
 # Instructions
 ## Option 1: Using Basescan
 
-1. Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format:
+1. Open https://basescan.org/address/0x80f5bcc38b18c0f0a18af3c6fba515c890689342#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format:
     ```
-    _implementationType (uint8): 0 (This will be zero for every ALI Agent)
+    _implementationType (uint8): 1 (This will be one for every ALI Agent)
     _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
     ```
     
@@ -21,7 +21,7 @@ Any ERC721 Token (NFT) can be converted into an ALI Agent using AI Protocol smar
     ![Write](./screenshots/3.png)
 
 4. Retrieve the keys contract that is being deployed against your NFT.
-5. Open https://basescan.org/address/0x63aCBC42e466d29F271c102Bf97A18B52203b308#readProxyContract#F27 and fill in the details for function 27. `lookupSharesContract`. Format
+5. Open https://basescan.org/address/0x80f5bcc38b18c0f0a18af3c6fba515c890689342#readProxyContract#F27 and fill in the details for function 27. `lookupSharesContract`. Format
     ```
     _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
     ```
