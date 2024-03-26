@@ -41,22 +41,22 @@ moderate the content creation process within the AI Protocol ecosystem, ensuring
 
 ```
 Error 550: Interaction nuances are refined to uphold our community standards.
-Error 551: Guides the DPT creation process to ensure content integrity.
+Error 551: Guides the ALI Agent creation process to ensure content integrity.
 Error 552: Curates Dream content to maintain harmony with community values.
 Error 553: Shapes Avatar Images to reflect our shared respect and creativity.
 Error 554: Oversees Dream Cover Image creation to align with our collective ethos.
 Error 555: Guides Background Image creation for Dreams, ensuring a positive space.
 Error 556: Assists in crafting Creator Bios that welcome and inspire.
-Error 557: Manages DPT Profile adjustments to resonate with our guidelines.
+Error 557: Manages ALI Agent Profile adjustments to resonate with our guidelines.
 Error 558: Curates Dream updates to foster a safe and inspiring environment.
 ```
 
 ## How to Implement Errors ##
 
-### Reporting and Handling of Problematic DPTs ###
+### Reporting and Handling of Problematic ALI Agents ###
 
-Users can report problematic DPTs through the platform's reporting system. In cases where a DPT violates the Terms of
-Service, it may be removed from the dApp, but it will remain as an NFT in the owner's wallet. Keyholders of removed DPTs
+Users can report problematic ALI Agents through the platform's reporting system. In cases where an ALI Agent violates the Terms of
+Service, it may be removed from the dApp, but it will remain as an NFT in the owner's wallet. Keyholders of removed ALI Agents
 can still trade their keys as outlined in the AI Protocol Gitbook.
 
 ## Conclusion ##

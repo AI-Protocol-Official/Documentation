@@ -3,39 +3,39 @@ AI Protocol V3 enables the development of a community-driven, secure, and adapti
 infrastructure (DePIN) for tokenized AI Systems.
 
 The AI Protocol is composed of elements such as 
-* [DPTs](#decentralized-pre-trained-transformers-dpt)
+* [ALI Agents](#artificial-liquid-intelligence-agents-ali-agents)
 * [Hives](#hives)
 * [Intelligence Pods](#intelligence-pod)
 * [iNFT](#inft)
 
-## Decentralized Pre-Trained Transformers (DPT)
-A Decentralized Pre-Trained Transformer (DPT) is a tokenized AI system with specialized functionality and embedded
+## Artificial Liquid Intelligence Agents (ALI Agents)
+An Artificial Liquid Intelligence Agent (ALI Agent) is a tokenized AI system with specialized functionality and embedded
 liquidity, offering a range of services. It can issue unique digital assets, termed "Keys", addressing the issue of low
 liquidity in blockchain-based assets.
 
-Any ERC721 Token (NFT) can be converted into a DPT using AI protocol smart contracts. To convert an ERC721 Token (NFT)
-into a DPT you must own that NFT.
+Any ERC721 Token (NFT) can be converted into an ALI Agents using AI protocol smart contracts. To convert an ERC721 Token (NFT)
+into an ALI Agents you must own that NFT.
 
-![what-is-dpt](./guides/intelligence-pod/images/what-is-dpt.png)
+![what-is-ali-agent](./guides/intelligence-pod/images/what-is-ali-agent.png)
 
-**I own an NFT how can I convert it into a DPT?**
+**I own an NFT how can I convert it into an ALI Agent?**
 
-Check out our guides to perform various operations with DPTs.
+Check out our guides to perform various operations with ALI Agents.
 
 ## How to
  
-* [Convert an NFT into a DPT?](./guides/convert-nft-to-dpt/README.md)
-* [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
-* [Buy/Sell Keys of DPT](./guides/buy-sell-keys-of-dpt/buy-sell-keys-of-dpt.md)
-* [Fuse a Level 5 Pod with a DPT?](./guides/fuse-pod-with-dpt/fuse-pod-with-dpt.md)
-* [Design Your DPT Tokenomics](./guides/how-to-launch-utility-token/dpt-tokenomics.md)
-* [Launch Token for your DPT?](./guides/how-to-launch-utility-token/how-to-launch-token-dpt.md)
-* [Create a Liquidity Pool on Uniswap for the Token of your DPT?](./guides/how-to-create-liquidity-pool-dpt.md)
-* [Airdrop your DPT token](./guides/how-to-airdrop/how-to-airdrop.md)
+* [Convert an NFT into an ALI Agent?](./guides/convert-nft-to-ali-agent/README.md)
+* [Convert an iNFT into an ALI Agent?](./guides/convert-inft-to-ali-agent/README.md)
+* [Buy/Sell Keys of ALI Agent](./guides/buy-sell-keys-of-ali-agent/buy-sell-keys-of-ali-agent.md)
+* [Fuse a Level 5 Pod with an ALI Agent?](./guides/fuse-pod-with-ali-agent/fuse-pod-with-ali-agent.md)
+* [Design Your ALI Agent Tokenomics](./guides/how-to-launch-utility-token/ali-agent-tokenomics.md)
+* [Launch Token for your ALI Agent?](./guides/how-to-launch-utility-token/how-to-launch-token-ali-agent.md)
+* [Create a Liquidity Pool on Uniswap for the Token of your ALI Agent?](./guides/how-to-create-liquidity-pool-ali-agent.md)
+* [Airdrop your ALI Agent's token](./guides/how-to-airdrop/how-to-airdrop.md)
 
 ## Hives
 A Hive is an on-chain abstraction, allowing
-* DPTs to have decentralized access to AI models, storage, GPUs and other resources.
+* ALI Agents to have decentralized access to AI models, storage, GPUs and other resources.
 * Resource providers to utilize their resources more effectively and transparently.
 * Hive owners build economies around the Hives, and attract participants of the various kind.
 
@@ -59,7 +59,7 @@ Every Hive has the following components:
  * Distributed Inference Cluster of GPUs
  * Distributed Storage Cluster
  * Tokenized Digital Assets
- * DPTs
+ * ALI Agents
 
 ![how-hive-is-create](./guides/intelligence-pod/images/how-hive-created.png)
 
@@ -114,7 +114,7 @@ As a simple analogy equates iNFTs to Humans with three parts:
 Any NFT can be turned into an iNFT via the iNFT Protocol. This is achieved by fusing the NFT with another ERC-721 asset called the Personality Pod. Once the NFT is fused with a Personality Pod, it acquires its own unique AI-powered personality.
 
 ## How to
-* [Convert an iNFT into a DPT?](./guides/convert-inft-to-dpt/README.md)
+* [Convert an iNFT into an ALI Agent?](./guides/convert-inft-to-ali-agent/README.md)
 
 ## Governance
 

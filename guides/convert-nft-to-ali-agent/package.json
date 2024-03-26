@@ -1,7 +1,7 @@
 {
-  "name": "convert-nft-to-dpt",
+  "name": "convert-nft-to-ali-agent",
   "version": "1.0.0",
-  "description": "An example for showcasing how can you convert your existing NFT into a DPT",
+  "description": "An example for showcasing how can you convert your existing NFT into a ALI Agent",
   "main": "index.js",
   "scripts": {
     "deploy": "ts-node main.ts"

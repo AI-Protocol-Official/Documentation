@@ -1,8 +1,8 @@
-# How to execute a DPT Token Airdrop
+# How to execute an ALI Agent Token Airdrop
 
 ## Prerequisites
 
-1.  A deployed ERC20 token and the required balance of that token for the airdrop. [How to launch a token?](../how-to-launch-utility-token/how-to-launch-token-dpt.md)
+1.  A deployed ERC20 token and the required balance of that token for the airdrop. [How to launch a token?](../how-to-launch-utility-token/how-to-launch-token-ali-agent.md)
 2. **Prepare a CSV file with airdrop details**: You need to prepare a list of the addresses and their corresponding airdrop balances, which should sum up to a value not exceeding the available airdrop balance. This list will be used later in the guide to generate a Merkle tree.
 
     For example, let's say the ERC20 token address is `0x59b670e9fA9D0A427751Af201D676719a970857b` and the required airdrop balance is `6,900` (six thousand nine hundred).
@@ -27,7 +27,7 @@
 1. [Git](https://git-scm.com/downloads) must be installed on your machine.
 2. [Node.js](https://nodejs.org/en/download) 18 must be installed on your machine.
 
-In this guide, you will deploy an airdrop smart contract to distribute your DPT tokens among users.
+In this guide, you will deploy an airdrop smart contract to distribute your ALI Agent tokens among users.
 
 #### Step 1: Setup the Repository
 
@@ -57,7 +57,7 @@ In this guide, you will deploy an airdrop smart contract to distribute your DPT 
 
 4. In this file, you need to add two values:
     1. `P_KEY8453`: This should be the private key of the account that has sufficient funds to deploy the contract. This account will be the owner of the contract.
-    2. `DPT_TOKEN_ADDRESS`: This should be the address of the DPT token that you want to link with the airdrop contract. **The airdrop contract will only distribute this token among users**.
+    2. `ALI_AGENT_TOKEN_ADDRESS`: This should be the address of the ALI Agent token that you want to link with the airdrop contract. **The airdrop contract will only distribute this token among users**.
 
     ![edit-file](./screenshots-guide1/airdrop-6.png)
 
@@ -102,7 +102,7 @@ The root is a cryptographic hash obtained by hashing all the airdrop users along
 
 2. After you update the root on the smart contract, you need to transfer the total no of airdroped tokens to the smart contract. So that users can claim the tokens from the smart contract.
 
-3. To do so you can copy the address of the airdrop smart contract. It was at the end of Step 2. And send DPT tokens to it from your Metamask. 
+3. To do so you can copy the address of the airdrop smart contract. It was at the end of Step 2. And send ALI Agent tokens to it from your Metamask. 
 
 #### Step 5: Remove the Private Key
 
@@ -142,7 +142,7 @@ The root is a cryptographic hash obtained by hashing all the airdrop users along
 
     ![airdrop-2](./screenshots/airdrop-2.png)
 
-4. Selecting the token button will show an input where you can paste your DPT token address.
+4. Selecting the token button will show an input where you can paste your ALI Agent token address.
 
     ![airdrop-3](./screenshots/airdrop-3.png)
 
@@ -185,4 +185,4 @@ The root is a cryptographic hash obtained by hashing all the airdrop users along
     >You can click on the transaction hash to see it on Basescan.
 
 
-13. Congratulations! You have successfully airdropped your DPT's tokens.
+13. Congratulations! You have successfully airdropped your ALI Agents tokens.
