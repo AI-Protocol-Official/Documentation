@@ -1,16 +1,16 @@
-# How to create a Liquidity Pool on Uniswap for the Token of your DPT?
+# How to create a Liquidity Pool on Uniswap for the Token of your ALI Agent?
 
-Setting up a liquidity pool allows users to swap DPT's token for their existing assets. To facilitate your DPT’s ecosystem you must create a liquidity pool of your  DPT’s liquidity token. 
+Setting up a liquidity pool allows users to swap ALI Agents token for their existing assets. To facilitate your ALI Agents ecosystem you must create a liquidity pool of your ALI Agents liquidity token. 
 
 ## Prerequisites
-1. Token of your DPT. [How to launch a token?](./how-to-launch-utility-token/how-to-launch-token-dpt.md)
+1. Token of your ALI Agent. [How to launch a token?](./how-to-launch-utility-token/how-to-launch-token-ali-agent.md)
 2. Basic knowledge of how DEX works
 3. Your wallet must have a sufficient balance of the token and the token you want to create the pair against.
 4. You must define a price for your token.
 
 For example, 
 
-Let's say I have a token of a DPT with the following details. 
+Let's say I have a token of an ALI Agent with the following details. 
 
 Address: `0xC6729C6cFc6B872acF641EB3EA628C9F038e5ABb`, Name: `Elana`, Symbol: `ELN`
 

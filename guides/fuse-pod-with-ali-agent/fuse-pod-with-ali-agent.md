@@ -1,12 +1,12 @@
-# How to fuse a Level 5 Pod with a DPT?
+# How to fuse a Level 5 Pod with an ALI Agent?
 
-AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a DPT [Learn more]()
+AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the AI Protocol, is an essential ERC-721 Asset. It plays a crucial role in the formation of a ALI Agent [Learn more]()
 
 ## Prerequisites
 1. You must own a Level 5 AI Pod aka Intelligence Pod.
-2. You must own a DPT.
+2. You must own an ALI Agent.
 3. Keep in mind that your pod will be locked.
-4. **If you attempt to fuse the Pod with a DPT that you do not own, you risk losing your Pod.**
+4. **If you attempt to fuse the Pod with an ALI Agent that you do not own, you risk losing your Pod.**
 
 ## Instructions using Etherscan
 
@@ -46,7 +46,7 @@ AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the A
 
     ![Write](./screenshots/6.png)
 
-8. Wait for the transaction to be confirmed. Congratulations your Pod is being fused with your DPT
+8. Wait for the transaction to be confirmed. Congratulations your Pod is being fused with your ALI Agents
 
 ## Instructions using Noah's Ark
 
@@ -94,6 +94,6 @@ AI Pod or Intelligence Pod, (previously known as a Personality Pod) within the A
     ![wallet](./screenshots/noah-10.png)
 
 11. FUSION Success!
-    > When Fusion is complete you will see an animation of your Intelligence Pod being transferred into your DPT.
+    > When Fusion is complete you will see an animation of your Intelligence Pod being transferred into your ALI Agent.
 
     ![success](./screenshots/noah-11.png)

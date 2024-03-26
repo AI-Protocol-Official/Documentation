@@ -11,11 +11,11 @@ This structured approach simplifies the upgrade process and maintains the AI Pro
 
 2. Click Login / Signup to proceed
     
-    ![login/signup](../fuse-pod-with-dpt/screenshots/noah-1.png)
+    ![login/signup](../fuse-pod-with-ali-agent/screenshots/noah-1.png)
 
 3. Sign In or Sign Up using your email
 
-    ![signin](../fuse-pod-with-dpt/screenshots/noah-2.png)
+    ![signin](../fuse-pod-with-ali-agent/screenshots/noah-2.png)
 
 4. Select “Wallet” in the “My Assets” dropdown menu on the Nav bar.
 

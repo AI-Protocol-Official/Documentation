@@ -1,9 +1,9 @@
-# How to launch a Token for your DPT?
+# How to launch a Token for your ALI Agent?
 
 ## Prerequisites
-1. **Understanding of Tokenomics**: It's crucial to have a solid understanding of [tokenomics](./dpt-tokenomics.md), which is the study of the economic systems surrounding blockchain tokens.
+1. **Understanding of Tokenomics**: It's crucial to have a solid understanding of [tokenomics](./ali-agent-tokenomics.md), which is the study of the economic systems surrounding blockchain tokens.
 2. **Metamask Wallet**: Ensure you have a Metamask wallet set up with sufficient funds to cover gas fees for token creation and transactions.
-3. **Base Network** Your Metamask Wallet should be connected to the Base Network, as all DPTs are tokenized as Base NFTs. Currently, all DPT Tokens will be on the [Base Network](https://www.base.org/), so make sure you understand the basics of the Base Network, specifically as well as [Layer-2 solutions](https://help.coinbase.com/en/coinbase/other-topics/other/base) generally. 
+3. **Base Network** Your Metamask Wallet should be connected to the Base Network, as all ALI Agents are tokenized as Base NFTs. Currently, all ALI Agent Tokens will be on the [Base Network](https://www.base.org/), so make sure you understand the basics of the Base Network, specifically as well as [Layer-2 solutions](https://help.coinbase.com/en/coinbase/other-topics/other/base) generally. 
 4. Your token should be compliant with ERC20, ERC1363, EIP2612, and EIP3009 Standards.
 
 ## Instructions using Remix
@@ -15,11 +15,11 @@
 
     ![token-0](./screenshots/token-0.png)
 
-* We will be changing `TokenNameERC20`, `TokenName`, `TokenSymbol`, and `totalSupply` to personalize it according to our DPT tokenomics. 
-    > By now it is assumed that you have already read the [tokenomics](./dpt-tokenomics.md) guide
+* We will be changing `TokenNameERC20`, `TokenName`, `TokenSymbol`, and `totalSupply` to personalize it according to our ALI Agent tokenomics. 
+    > By now it is assumed that you have already read the [tokenomics](./ali-agent-tokenomics.md) guide
 
     ![token-1](./screenshots/token-1.png)
-* For this example, we have a DPT named **Elana** and want to create a token for it.
+* For this example, we have an ALI Agent named **Elana** and want to create a token for it.
 Our tokenomics for the token is as follows:
     >**TokenName:** Elana\
     **TokenSymbol:** ELN\
@@ -104,6 +104,6 @@ Our tokenomics for the token is as follows:
 
 * Import this token into your Metamask wallet.
 
-* Congratulations! You have successfully deployed an ERC20 token for your DPT.
+* Congratulations! You have successfully deployed an ERC20 token for your ALI Agent.
 
-* Making decisions about how to distribute your token, what kinds of unique functions work for your community, and other considerations can be found in our DPT [Tokenomics guide](./dpt-tokenomics.md).
+* Making decisions about how to distribute your token, what kinds of unique functions work for your community, and other considerations can be found in our ALI Agent [Tokenomics guide](./ali-agent-tokenomics.md).
