@@ -1,12 +1,12 @@
-# How can I convert my NFT into a DPT?
-Any ERC721 Token (NFT) can be converted into a DPT using AI Protocol smart contracts. To do so you must have ownership of that NFT
+# How can I convert my NFT into an ALI Agent?
+Any ERC721 Token (NFT) can be converted into an ALI Agent using AI Protocol smart contracts. To do so you must have ownership of that NFT
 
 # Instructions
 ## Option 1: Using Basescan
 
 1. Open https://basescan.org/address/0x80f5bcc38b18c0f0a18af3c6fba515c890689342#writeProxyContract#F1 and fill in the details for function 1. `deploySharesContract`. Format:
     ```
-    _implementationType (uint8): 1 (This will be zero for every DPT)
+    _implementationType (uint8): 1 (This will be one for every ALI Agent)
     _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0x303d1e1f43fef1fb8eab940d9c11a203281c5211","7"]
     ```
     
@@ -30,7 +30,7 @@ Any ERC721 Token (NFT) can be converted into a DPT using AI Protocol smart contr
     ![Read](./screenshots/4.png)
 
 6. Click "Query" and your keys contract address will be displayed.
-    > This keys contract holds the embeded liquidty for you DPT. This contract can be used to buy and sell keys of your DPT.
+    > This keys contract holds the embeded liquidty for you ALI Agent. This contract can be used to buy and sell keys of your ALI Agent.
 
     ![query](./screenshots/5.png)
 
@@ -41,7 +41,7 @@ Any ERC721 Token (NFT) can be converted into a DPT using AI Protocol smart contr
 git clone https://github.com/AI-Protocol-Official/Documentation.git
 
 # Move to working directory
-cd guides/convert-nft-to-dpt
+cd guides/convert-nft-to-ali-agent
 
 # Install dependencies
 npm install
@@ -69,11 +69,11 @@ NFT_TOKEN_ID="NFT token id"
 ```
 
 
-## Deploy your DPT
+## Deploy your ALI Agent
 
 ```bash
-# Now that we all setup. Run this to convert your NFT into DPT
+# Now that we all setup. Run this to convert your NFT into ALI Agent
 npm run deploy
 ```
 
-Hurray you have just created a DPT with your NFT 🥳
+Hurray you have just created a ALI Agent with your NFT 🥳

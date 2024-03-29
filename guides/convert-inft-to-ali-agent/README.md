@@ -1,12 +1,12 @@
-# How can I convert my iNFT into a DPT?
-Any iNFT can be converted into a DPT using AI Protocol smart contracts. To do so you must have ownership of that iNFT
+# How can I convert my iNFT into an ALI Agent?
+Any iNFT can be converted into an ALI Agent using AI Protocol smart contracts. To do so you must have ownership of that iNFT
 
 # Instructions
 ## Option 1: Using Etherscan
 
 1. Open https://etherscan.io/address/0xABA615044d5640bd151A1B0bdac1C04806AF1AD5#writeProxyContract#F3 and fill in the details for function 3. `deploySharesContractPaused (0x2b30a5d7)`. Format
     ```
-    _implementationType (uint8): 0 (This will be zero for every DPT)
+    _implementationType (uint8): 0 (This will be zero for every ALI Agent)
     _sharesSubject (tuple): ["collection_address","tokenId"] eg: ["0xce69a87c02baa8c5f17ed7eb8b1c2657afc2e1af","7"]
     ```
 2. Connect your wallet using **Connect Wallet** button
@@ -19,7 +19,7 @@ Any iNFT can be converted into a DPT using AI Protocol smart contracts. To do so
 git clone https://github.com/AI-Protocol-Official/Documentation.git
 
 # Move to working directory
-cd guides/convert-inft-to-dpt
+cd guides/convert-inft-to-ali-agent
 
 # Install dependencies
 npm install
@@ -48,11 +48,11 @@ NFT_TOKEN_ID="iNFT token id"
 ```
 
 
-## Deploy your DPT
+## Deploy your ALI Agent
 
 ```bash
-# Now that we all setup. Run this to convert your iNFT into DPT
+# Now that we all setup. Run this to convert your iNFT into ALI Agent
 npm run deploy
 ```
 
-Hurray you have just created a DPT with your iNFT 🥳
+Hurray you have just created a ALI Agent with your iNFT 🥳

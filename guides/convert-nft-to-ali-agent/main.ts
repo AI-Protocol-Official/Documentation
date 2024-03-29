@@ -6,7 +6,7 @@ import KEYS_FACTORY_ABI from "./abis/KeysFactory.json";
 dotevnv.config()
 
 // Keys Factory Address Contract Reference: https://github.com/AI-Protocol-Official/ai-protocol-v3-periphery/blob/master/contracts/bonding_curves/SharesFactoryV1.sol
-const KEYS_FACTORY_ADDRSS = "0xABA615044d5640bd151A1B0bdac1C04806AF1AD5"
+const KEYS_FACTORY_ADDRSS = "0x80f5bcc38b18c0f0a18af3c6fba515c890689342"
 const { PRIVATE_KEY, RPC_URL, NFT_COLLECTION_ADDRESS, NFT_TOKEN_ID } = process.env
 
 async function main() {
@@ -37,19 +37,19 @@ async function main() {
     // Initialized Wallet should own the NFT
     invariant(nftOwner === account, "You must own the NFT")
 
-    console.log(`Your DPT is being created.....`)
+    console.log(`Your ALI Agent is being created.....`)
 
     /**
-     * Convert NFT into DPT by calling deploySharesContract of Keys Factory Reference: https://github.com/AI-Protocol-Official/ai-protocol-v3-periphery/blob/master/contracts/bonding_curves/SharesFactoryV1.sol#L459
+     * Convert NFT into ALI Agent by calling deploySharesContract of Keys Factory Reference: https://github.com/AI-Protocol-Official/ai-protocol-v3-periphery/blob/master/contracts/bonding_curves/SharesFactoryV1.sol#L459
      * @param implementationType This denotes the underlying currency that will be used to buy and sell keys. 0 = ETH and 1 = ALI
      * @param sharesSubject NFT subject to which the keys contract will be launched.
      */
-    const tx = await keysFactoryContract.deploySharesContract(0, {
+    const tx = await keysFactoryContract.deploySharesContract(1, {
         tokenAddress: NFT_COLLECTION_ADDRESS,
         tokenId: NFT_TOKEN_ID
     })
 
-    console.log(`Your DPT is created. Transaction: https://etherscan.io/tx/${tx.hash}`)
+    console.log(`Your ALI Agent is created. Transaction: https://basescan.org/tx/${tx.hash}`)
 
 }
 main()

@@ -1,9 +1,9 @@
-# A Guide to DPT Token Tokenomics
+# A Guide to ALI Agent Token Tokenomics
 
 ## Introduction
-This guide will help you understand the basic steps and decisions involved in designing the tokenomics of your DPT token.
+This guide will help you understand the basic steps and decisions involved in designing the tokenomics of your ALI Agent token.
 
-## DPT AI Meme Coin Tokenomics Template
+## ALI Agent AI Meme Coin Tokenomics Template
 The template presents "HarambeCoin" ($HMB), a token that combines the widespread appeal of meme culture with the burgeoning interest in AI, creating a perfect blend for a meme coin that stands out. In designing this token, several key factors were considered to align with meme coin standards while also pushing the envelope to foster innovation and inclusivity in the ecosystem
 
 ### Basic Parameters
@@ -20,11 +20,11 @@ Decimals: 18, allowing for fractional transactions.
 
 *   **Liquidity Pool Allocation:** 97% of total supply
 
-## Step 1: Define Your DPT Token Basics
+## Step 1: Define Your ALI Agent Token Basics
 
-**Token Name and Symbol:** Begin with something catchy and memorable. The name and symbol are your brand in the crypto world. For a DPT Token, consider something playful and related to personality and character  of your DPT e.g a simpler approach could be to name your token same as the name of the DPT, Harambe DPT can have ERC-20 token named as Harambe with a symbol HMB.
+**Token Name and Symbol:** Begin with something catchy and memorable. The name and symbol are your brand in the crypto world. For an ALI Agent Token, consider something playful and related to personality and character  of your ALI Agent e.g a simpler approach could be to name your token same as the name of the ALI Agent, Harambe ALI Agent can have ERC-20 token named as Harambe with a symbol HMB.
 
-**Total Supply:** Decide on the total number of tokens that will ever exist. A common strategy for DPT tokens is to have a large total supply (In Billions and Trillions) to allow for a low per-token price, making it accessible and appealing to a wide audience. 
+**Total Supply:** Decide on the total number of tokens that will ever exist. A common strategy for ALI Agent tokens is to have a large total supply (In Billions and Trillions) to allow for a low per-token price, making it accessible and appealing to a wide audience. 
 
 **Decimals:** This determines how divisible your token is. Most tokens follow the standard of 18 decimals, allowing for very small transactions.
 
@@ -88,18 +88,18 @@ Community and Marketing: 10-15% - Allocated for growing the community, marketing
 
 ## Step 4: Token Distribution Models
 
-There are different token distribution models which users can choose for initial distribution of their DPT tokens:
+There are different token distribution models which users can choose for initial distribution of their ALI Agent tokens:
 
 
 #### Airdrops
 
 *   To reward early adopters, community members, or holders of specific tokens with free tokens. Airdrops can generate buzz and encourage community engagement.
 
-*   Decide on the criteria for who receives the airdrop, such as key holders of your DPT, users who have interacted with your DPT, dream creators, users who have promoted/tagged your DPT on social media platforms or referred to other users, early community members, liquidity providers of your DPT Token.
+*   Decide on the criteria for who receives the airdrop, such as key holders of your ALI Agent, users who have interacted with your ALI Agent, dream creators, users who have promoted/tagged your ALI Agent on social media platforms or referred to other users, early community members, liquidity providers of your ALI Agent Token.
 
 *   Implement periodic airdrops based on community milestones or achievements, such as social media engagement, dream creation contests, or other participatory events. This not only rewards community members but also encourages viral marketing.
 
-    [How to Airdrop your DPT token](../how-to-airdrop/how-to-airdrop.md)
+    [How to Airdrop your ALI Agent token](../how-to-airdrop/how-to-airdrop.md)
 
 #### Initial Coin Offerings (ICOs)
 
@@ -141,18 +141,18 @@ An amount of initial token supply should be allocated for Liquidity pool creatio
 
 3. **Fee Tier:** If you decide to go with Uniswap or Sushiswap, then the fee tier of the pool is also an important consideration. There are three fee tiers 0.05%, 0.1%, o.3% for a uniswap pool. A higher fee tier gives more incentive to liquidity providers, while costs swappers higher amount
 
-4. **Pairing Token:**  Token which you want to pair your DPT token with is also very critical, more popular choice is a stablecoin like USDC, USDT or DAI, but user can also opt for ETH, WETH or any other asset which has it’s won pros and cons
+4. **Pairing Token:**  Token which you want to pair your ALI Agent token with is also very critical, more popular choice is a stablecoin like USDC, USDT or DAI, but user can also opt for ETH, WETH or any other asset which has it’s won pros and cons
 
-    [How to create a Liquidity Pool on Uniswap for the Token of your DPT?](../how-to-create-liquidity-pool-dpt.md)
+    [How to create a Liquidity Pool on Uniswap for the Token of your ALI Agent?](../how-to-create-liquidity-pool-ali-agent.md)
 
 ## Features and Mechanics
 
-*   **Inflationary vs Deflationary token models:** The inflationary token model incentivizes participants through emission of new tokens. Inflation rate / emission rate could be fixed or set dynamically based on adoption and other KPIs of DPT Token. The deflationary model incentivizes token holding as the time token becomes scarce and potential increase in value. For deflationary token models some burn mechanism is used depending on the goals of the token e.g burn on every transaction.
-Decide based on your DPT Token’s long-term goals. If you aim for a stable ecosystem with rewards for participation, an inflationary approach with capped inflation rates might be beneficial. For value appreciation and scarcity, consider deflationary tactics like transaction burns.
+*   **Inflationary vs Deflationary token models:** The inflationary token model incentivizes participants through emission of new tokens. Inflation rate / emission rate could be fixed or set dynamically based on adoption and other KPIs of ALI Agent Token. The deflationary model incentivizes token holding as the time token becomes scarce and potential increase in value. For deflationary token models some burn mechanism is used depending on the goals of the token e.g burn on every transaction.
+Decide based on your ALI Agent Token’s long-term goals. If you aim for a stable ecosystem with rewards for participation, an inflationary approach with capped inflation rates might be beneficial. For value appreciation and scarcity, consider deflationary tactics like transaction burns.
 
 *   **Transaction Taxing:** Transaction taxes can discourage speculative trading and ensure that token holders contribute to the ecosystem's health. Taxes can be allocated to various purposes, like liquidity pools, development funds, or distributed as rewards to holders.
 Implement a small transaction tax (e.g., 1-2%) that is split between liquidity pool funding, development, and holder rewards.
 
-*   **Staking Mechanism:** DPT tokens can have a staking utility for users where users can lock their tokens for some fixed period of time and receive staking rewards to hedge against inflation. Staking also decreases token velocity resulting in stability in price of token
+*   **Staking Mechanism:** ALI Agent tokens can have a staking utility for users where users can lock their tokens for some fixed period of time and receive staking rewards to hedge against inflation. Staking also decreases token velocity resulting in stability in price of token
 
 
